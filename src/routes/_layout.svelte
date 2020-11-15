@@ -31,7 +31,6 @@
 <Nav {segment} />
 
 <main>
-
   <slot />
 </main>
 <Footer {segment} />

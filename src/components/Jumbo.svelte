@@ -33,28 +33,35 @@
     padding: 70px 0 30px 0;
   }
 
-  .shell {
-  }
-
-  .shell div {
-  }
-  .wording {
-  }
-
   .illustration img {
     width: 200px;
   }
 
   @media (min-width: 600px) {
+    .jumbo{
+ 
+          padding:0;
+          display: block;
+          margin-top:80px;
+           
+    }
     .shell {
       display: flex;
       max-width: 60em;
+      align-self: center;
+      padding: 0px;
+      align-self:center;
+      height: 300px;
+    
+    }
+
+    .shell div{
+   align-self: center;
     }
 
     .wording {
       width: 50%;
       margin-right: 2em;
-      align-self: center;
     }
 
     .illustration img {
@@ -70,7 +77,7 @@
       <h2>{subHeading}</h2>
     </div>
     <div class="illustration">
-      <img src="{image}.png" alt="start" />
+      <img src="/images/{image}.png" alt="start" />
     </div>
 
   </div>

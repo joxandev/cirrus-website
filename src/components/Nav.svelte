@@ -51,10 +51,10 @@
 
   li.brand {
     font-size: 1.3em;
-    background: url("/images/logo.png") no-repeat;
+    background: url("/images/cirrus_logo.png") no-repeat;
     background-position: 10px;
-    background-size: 190px auto;
-    width: 200px;
+    background-size: 200px auto;
+    width: 210px;
     height: 60px;
   }
 
@@ -138,7 +138,7 @@
             <a rel="prefetch" href="blog">Blog</a>
           </li>
           <li>
-            <a rel="prefetch" href="/">Contact us</a>
+            <a rel="prefetch" href="contact">Contact</a>
           </li>
         </ul>
       {/if}
@@ -171,8 +171,8 @@
     <li>
       <a
         rel="prefetch"
-        aria-current={segment === 'blog' ? 'page' : undefined}
-        href="blog">
+        aria-current={segment === 'contact' ? 'page' : undefined}
+        href="contact">
         Contact
       </a>
     </li>

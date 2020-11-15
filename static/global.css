@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;200;700&display=swap");
 body {
   margin: 0;
   font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
@@ -53,8 +52,35 @@ main {
   min-height: 80vh;
 }
 
+
 article {
-  padding: 1em;
+  padding: 2em 1.5em;
+}
+article h1 {
+  font-weight: 600;
+  font-size: 2.6em;
+  color: rgb(19, 49, 77);
+  /* letter-spacing: -2px; */
+}
+
+article h2 {
+  font-weight: 600;
+  font-size: 2.1em;
+  color: #008efdff;
+  margin-top: 1em;
+  border-top: solid 1px #eeeeee;
+  padding-top: 0.5em;
+}
+
+article p {
+  margin: 0 0 0.7em 0em;
+}
+.intro {
+  font-weight: 700;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  color:rgb(13, 50, 78);
+  margin-top: .75em;
 }
 
 .darkBlue {
@@ -67,8 +93,11 @@ article {
   }
 
   article {
-    padding: 1em;
     max-width: 80%;
     margin: auto;
+  }
+
+  article p{
+    line-height: 1.8em;
   }
 }

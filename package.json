@@ -1,6 +1,6 @@
 {
-  "name": "CirrusHR",
-  "description": "HR People Solutions",
+  "name": "cirrushr",
+  "description": "Cirrus HR People Solutions",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "compression": "^1.7.1",
+    "from": "^0.1.7",
+    "import": "0.0.6",
+    "markdown": "^0.5.0",
     "polka": "next",
     "sirv": "^1.0.0"
   },

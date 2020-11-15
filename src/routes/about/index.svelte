@@ -1,33 +1,9 @@
 <script>
-  import Jumbo from "../components/Jumbo.svelte";
+  import Jumbo from "../../components/Jumbo.svelte";
 </script>
 
 <style>
-  article {
-    padding: 2em 1.5em;
-  }
-  h1 {
-    font-weight: 600;
-    font-size: 2.6em;
-    color: rgb(19, 49, 77);
-    /* letter-spacing: -2px; */
-  }
-
-  h2 {
-    font-weight: 600;
-    font-size: 2.1em;
-    color: #008efdff;
-    margin-top: 1em;
-    border-top: solid 1px #eeeeee;
-    padding-top: 0.5em;
-  }
-
-  p {
-    margin: 0 0 0.7em 0em;
-  }
-  .intro {
-    font-weight: 400;
-  }
+  
 </style>
 
 <svelte:head>
@@ -40,7 +16,6 @@
   image="start" />
 
 <article>
-  <h1>Who We Are?</h1>
   <p class="intro">
     We’re a friendly bunch of HR professionals, who love helping business owners
     deal with their HR issues. Whether the advice you need is regarding a

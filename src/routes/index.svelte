@@ -3,67 +3,7 @@
 </script>
 
 <style>
-  h1 {
-    font-weight: 800;
-    font-size: 2.5em;
-  }
-
-  h2 {
-    color: #1974d1;
-    font-weight: 800;
-  }
-
-  p {
-    font-size: 1.3em;
-  }
-
-  img {
-    max-height: 200px;
-  }
-
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-  }
-
-  .col {
-    flex: 1;
-  }
-
-  .col.image {
-    text-align: center;
-  }
-
   @media (min-width: 480px) {
-    h1 {
-      font-size: 3em;
-    }
-
-    .row {
-      margin-bottom: 50px;
-      border-bottom: solid 1px #eeeeee;
-      padding-bottom: 40px;
-    }
-
-    img {
-      max-height: 350px;
-    }
-    .col {
-      flex: 1 1 25%;
-      margin-right: 5%;
-    }
-
-    .cols3 .col img {
-      width: 60%;
-    }
-
-    h1.subheading {
-      margin-bottom: 40px;
-      letter-spacing: -2px;
-      font-size: 2.5em;
-      color: #333333;
-    }
   }
 </style>
 
@@ -74,3 +14,39 @@
   heading="We are Cirrus HR"
   subHeading="People's Solutions"
   image="start" />
+  <article>
+  <h1>Who We Are?</h1>
+  <p class="intro">
+    We’re a friendly bunch of HR professionals, who love helping business owners
+    deal with their HR issues. Whether the advice you need is regarding a
+    difficult restructure, a complex TUPE transfer, or undertaking a
+    disciplinary investigation you can trust that we’ll have someone with just
+    the right skills in our bank of HR pro’s
+  </p>
+  <h2>Our Story</h2>
+  <p>
+    The citrusHR consultancy story is one that will ring true with a number of
+    small business owners.
+  </p>
+  <p>
+    It’s a partnership formed in 2010 by two University friends frustrated with
+    the 9-5 corporate lifestyle; Kirsty Senior and Georgina Read both wanted to
+    deliver more creative HR solutions for small businesses in the UK.
+  </p>
+  <p>
+    They’ve learnt the hard way, making mistakes thanks to the challenges of the
+    small business world. However they’ve also felt the elation of success –
+    doubling turnover year on year whilst also somehow finding the time to bring
+    babies into the world.
+  </p>
+  <h2>Why are we better than the rest?</h2>
+  <p>
+    We get to know your business from the inside out. We are passionate about
+    small businesses, inspired by the ability to grow from nothing through hard
+    graft and creative entrepreneurship. Whether your challenges come attached
+    to reduced profits, family politics, or Trustee Board meetings we’ve usually
+    been there many times before and helped overcome what on first appearance
+    was impossible.
+  </p>
+</article>
+
